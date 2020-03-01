@@ -1,0 +1,1588 @@
+/* General */
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.html_visioni {
+   background-color: #082160
+       
+}
+
+.html_circular {
+    background: linear-gradient(-45deg, rgba(255,20,0,1) 0%, rgba(255,78,0,1) 25%, rgba(255,142,0,1) 100%)!important;
+}
+
+.html_study {
+background-color: #ebdfd4;
+}
+
+.studentphase:hover {
+    text-decoration: underline
+}
+
+.html_flatmind {
+    background-color: #2278a1
+}
+.html_culturiot {
+background:linear-gradient(135deg, rgba(93,140,160,1) 0%, rgba(12,117,140,1) 48%, rgba(29,53,70,1) 100%);
+}
+
+.html_microfix {
+ background-color: black;
+}
+
+.html_tolkien {
+    background-color: #f9e4c4!Important
+}
+
+.html_beast {
+    background:linear-gradient(-135deg, rgba(154,19,103,1) 0%, rgba(15,85,117,1) 66%, rgba(29,53,70,1) 100%)
+}
+
+.notvisible {
+        display:none;
+    }
+
+.visible {
+    display: block
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+    transition: 1s ease;
+}
+
+.underconstruction {
+    width: 100vw;
+    height: 130vh;
+    position: absolute;
+    z-index:5;
+    background-color: ghostwhite;
+    margin-top: -100px;
+}
+
+.underconstruction img{
+display: inline-block;
+    justify-content: center !important;
+    position: relative;
+    width: 100%;
+    }
+
+.underconstruction  h1 {
+    font-family: "Laca";
+    font-weight: 200;
+    color: dimgrey;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    
+    
+}
+
+.js-reveal {
+  opacity: 1;
+  transition: opacity .5s, margin-top .7s ease-out !Important;
+}
+
+.js-reveal--hidden {
+  opacity: 0.01;
+  margin-top: 20px!important;
+}
+
+
+a {
+    height: auto;
+    width: 100%;
+    text-decoration: none !important;
+
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: table;
+
+}
+
+.notscrollable {
+    overflow: hidden;
+}
+
+.blackbackground {
+    background-color: black !important;
+    width: 100%;
+    height: 400px;
+}
+
+.bluebackground {
+    background-color: #1b3e87;
+}
+
+.orangebackground{
+    background: linear-gradient(-45deg, rgba(255,20,0,1) 0%, rgba(255,78,0,1) 25%, rgba(255,142,0,1) 100%)!important;
+} 
+
+.brownbackground {
+    background-color: #f6f4f2;
+}
+
+.cyanbackground {
+    background-color: #3f90b6;
+}
+
+.black2background {
+    background:linear-gradient(135deg, rgba(93,140,160,1) 0%, rgba(12,117,140,1) 48%, rgba(29,53,70,1) 100%);
+}
+
+.black3background {
+    background-color: black!important }
+
+.transbackground {
+    background-color: transparent!important;
+}
+
+.brown2background {
+    background-color: #f9e4c4;
+}
+
+.yellow {
+    color: #FFC200;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 0.5s ease;
+
+}
+
+.row {
+    padding: 0;
+    background-color: ghostwhite;
+    margin: 0;
+}
+
+.smartphone {
+    display: none;
+}
+
+/* Loader */
+
+#loader {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 25vh;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 1;
+    background-color: ghostwhite;
+    z-index: 99;
+    text-align: center;
+    overflow: none !important;
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    z-index: 100;
+
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    border-radius: 100%;
+
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #FFC200;
+    border-radius: 100%;
+
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate {
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes sk-rotate {
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes sk-bounce {
+
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bounce {
+
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+.loading-title {
+    font-family: "Laca";
+    font-size: 10pt;
+    color: #b0b0c1;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+/* Navbar */
+
+
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: ghostwhite;
+    transition: 0.5s ease;
+    top: 0;
+}
+
+
+.nav-up {
+    top: -85px;
+    transition: 0.5s ease;
+}
+
+.title-up {
+    margin-top: -85px;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.header .row {
+    background-color: ghostwhite;
+}
+
+.header-title {
+    font-family: "Laca";
+    font-size: 20pt;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.header-title:hover {
+    text-decoration: none !important;
+}
+
+.header-project {
+    font-family: "Laca";
+    font-weight: 300;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease;
+    margin-top: 15px;
+
+
+}
+
+.header-project-active {
+    opacity: 1;
+    transition: 0.5s ease;
+    margin-top: -15px;
+
+}
+
+.home {
+    font-weight: 300;
+}
+
+.home:hover {
+    color: #FFC200;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.name {
+    font-weight: 100;
+}
+
+.hamburger {
+    position: fixed;
+    right: 0;
+    top: 28px;
+    right: 7%;
+    z-index: 4 !important;
+    transition: top 0.5s ease !important;
+
+
+}
+
+.ham-up {
+    top: -57px;
+    transition: top 0.5s ease !important;
+}
+
+.nav_circ {
+    background-color: rgb(255,255,255,1)!important }
+
+
+/* About */
+
+.not-active {
+    margin-top: 30px !important;
+    transition: .5s ease;
+    opacity: 0 !important;
+}
+
+.about {
+    width: 100vw;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, .97);
+
+    position: fixed;
+    right: -100vw;
+    z-index: 3;
+    transition: 0.8s ease;
+    top: 0;
+}
+
+.about-active {
+    right: 0;
+}
+
+.about-header {
+    top: -100px;
+    transition: 0.8s ease;
+}
+
+.about .row {
+    background-color: transparent;
+}
+
+.about h1 {
+    font-family: "Laca";
+}
+
+.myphoto {
+    width: 100%;
+    height: 60vh;
+    background-image: url(Assets/Images/About/Me.png);
+    background-size: 120%;
+    background-position: -40px;
+    background-clip: content-box;
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.mydescription {
+    width: 100%;
+    height: 60vh;
+    opacity: 1;
+    margin-top: 0;
+    transition: .5s ease;
+}
+
+.title-description {
+    font-size: 20pt;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+    opacity: .8;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 15px
+}
+
+.description {
+    color: #b0b0c1;
+    font-family: "Laca";
+    font-weight: 100;
+    font-size: 14pt;
+
+}
+
+.title-experience {
+    font-size: 20pt;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+    opacity: .8;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    margin-left: 55px
+}
+
+.mycv {
+    width: 100%;
+    height: 60vh;
+    opacity: 1;
+    margin-top: 0;
+    transition: .5s ease;
+}
+
+.myexperience-year {
+    font-family: "Laca";
+    font-weight: 100;
+    font-size: 10pt;
+    color: #FFC200;
+    list-style: none;
+    width: 100px;
+    margin-top: 5px;
+
+
+}
+
+.myexperience-year li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+.myexperience {
+    list-style: circle yellow;
+
+    color: #b0b0c1;
+    font-family: "Laca";
+    list-style: none;
+    padding-left: 70px;
+}
+
+.myexperience li {
+    margin-bottom: 20px;
+}
+
+.mycontacts {
+    opacity: 1;
+    margin-top: 0px !important;
+    transition: .5s ease;
+}
+
+.follow {
+    font-size: 12pt;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding-top: 30px;
+    opacity: .8;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.mysocial {
+    display: inline-flex;
+    position: absolute;
+    left: 0;
+    padding-left: 15px;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.mysocial a {
+    margin-right: 7%;
+}
+
+.myicon {
+    width: 4vw !Important;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.myicon:hover {
+    margin-top: -5px;
+    transition: .3s ease;
+
+
+}
+
+.cerchio-active {
+    fill: #FFC200 !Important;
+    transition: .3s ease;
+}
+
+.logo-active {
+    fill: black !Important;
+    transition: .5s ease;
+}
+
+.mycontact {
+    color: #b0b0c1;
+    margin-top: 20%;
+    text-align: left;
+    list-style: none;
+    margin-left: 20%
+}
+
+.mycontact li {
+    margin-bottom: 10px;
+    font-family: "Laca";
+    font-size: 14pt;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+
+
+.email-me {
+    width: 200px;
+    background-color: #FFC200;
+    height: 70px;
+    position: absolute;
+    left: 85px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-top: 16%;
+}
+
+.email-me:hover {
+    border: 2px solid #FFC200;
+    background-color: transparent;
+    transition: .3s ease;
+}
+
+.email-me h1 {
+    font-family: "Laca";
+    font-size: 14pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 25px;
+    transition: .3s ease;
+}
+
+.contact-off {
+    margin-top: -10px;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.icon-me {
+    color: #FFC200;
+    font-size: 20px;
+    position: absolute;
+    right: 85px;
+    top: 35px;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.icon-on {
+    opacity: 1;
+    top: 20px;
+    transition: .3s ease;
+
+}
+
+/* Info */
+
+
+
+
+.info {
+    height: 90vh;
+    margin-top: 85px;
+    background-color: ghostwhite;
+}
+
+.info h1 {
+    font-family: "Laca";
+    font-size: 200px;
+    font-style: italic;
+}
+
+.info p {
+    font-family: "Laca";
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 55vh;
+
+}
+
+.focus {
+    text-transform: uppercase;
+    font-weight: 100;
+    color: rgb(176, 176, 193);
+    letter-spacing: 3px;
+    padding-top: 50px
+}
+
+.my-work {
+    padding-top: 40px;
+    background-color: ghostwhite;
+
+}
+
+.my-work h1 {
+    font-family: "Laca";
+    font-size: 18px;
+    font-weight: 300 !important;
+    color: rgb(176, 176, 193);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 8%;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+
+.my-work h2 {
+    font-family: "Laca";
+    font-size: 30px;
+    font-weight: 300 !important;
+    color: rgb(176, 176, 193);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: 10px;
+    animation: mover .5s infinite alternate;
+    cursor: pointer;
+}
+
+.click-me {
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+}
+
+.seemy:hover {
+    color: grey;
+    text-decoration: underline
+}
+
+
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+/* Projects */
+
+
+
+.portfolio {
+    padding-top: 20px;
+    background-color: ghostwhite;
+    margin-bottom: 50px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-left: 0 !important;
+
+}
+
+
+.tile {
+    height: 40vh;
+    width: 40vw;
+    border: 5px solid ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    overflow: hidden;
+
+    padding: 0;
+}
+
+.tile img {
+    position: absolute;
+    right: 50%;
+    bottom: 0%;
+    transform: translate(50%, 0);
+    transition: 0.5s ease;
+    z-index: 0;
+    height: 100%
+}
+
+.tile img:hover {
+    opacity: 0.35;
+    cursor: pointer;
+
+}
+
+.specialImg {
+
+    width: 105% !important;
+    height: auto !important
+}
+
+.title {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    transition: 0.5s ease;
+    pointer-events: none;
+    text-align: center;
+}
+
+.title h1 {
+    font-family: "Laca";
+    font-size: 18pt;
+    padding-top: 50px;
+    transition: 0.3s ease;
+    opacity: 0;
+    overflow: auto;
+}
+
+.up-title {
+    padding-top: 0 !important;
+    transition: padding 0.5s ease;
+
+}
+
+.title h2 {
+    font-family: "Laca";
+    font-size: 10pt;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #FFC200;
+    opacity: 0;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+
+}
+
+.hover {
+    opacity: 1 !important;
+
+}
+
+
+/* Footer */
+
+
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background: ghostwhite;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    color: black;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+.footer div {
+    position: absolute;
+}
+
+.footer p {
+    color: #b0b0c1;
+    font-family: "Laca";
+    font-weight: 300;
+
+}
+
+#copybox {
+    left: 0;
+    bottom: 7px
+}
+
+#copyright {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+
+#copymade {
+    right: 0;
+    bottom: 7px
+}
+
+#madebyme {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.heart {
+    color: red;
+
+}
+
+
+.footer ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.footer li {
+    width: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    fill: #b0b0c1;
+    transition: fill 0.3s ease;
+}
+
+#Linkedin:hover {
+    fill: #0e76a8;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+#Dribbble:hover {
+    fill: #ea4c89;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+#Vimeo:hover {
+    fill: #86c9ef;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+#Instagram:hover {
+    fill: #8134af;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+#Whatsapp:hover {
+    fill: #25D366;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+
+}
+
+
+
+/* Project Page */
+
+
+.project {
+    height: auto;
+    margin-top: 85px;
+    margin-bottom: 60px;
+}
+
+.project .row {
+    background-color: transparent !important;
+    font-family: "Laca";
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.project .row h1 {
+    font-size: 53px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.project .row h2 {
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: darkgrey;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 10px
+
+}
+
+.project .row h3 {
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #FFC200;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.project_text {
+    font-family: "Laca";
+    font-size: 14pt;
+    font-weight: 100;
+    padding-top: 15px;
+    text-align: justify
+}
+
+.video_project {
+    position: relative !important;
+    z-index: 1;
+    padding-top: 3.5vh;
+
+}
+
+.video_project img {
+    width: 100%;
+}
+
+.change-project {
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid rgba(255,255,255,.25)
+}
+
+.change_btn {
+    position: absolute;
+    font-family: "Laca";
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+.change2_btn {
+    position: absolute;
+    font-family: "Laca";
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 12pt;
+    display: inline-flex;
+}
+
+.img-change-next {
+    width: 20px!important;
+    position: absolute;
+    margin-top: -18px;
+    transition: .3s ease;
+    margin-right: 10px;
+}
+
+.img-change-previous {
+    width: 20px!important;
+    position: absolute;
+    margin-top: -18px;
+    transition: .3s ease;
+    margin-right: 10px;
+}
+
+.img-active {
+    width: 100px !Important;
+    transition: .3s ease
+}
+
+.prev-col {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+#previous {
+    left: 8%;
+    cursor: pointer;
+    transition: .3s ease
+}
+
+#previous2 {
+    left: 8%;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-top: 30px;
+    opacity: 0;
+
+}
+
+.previous_up {
+    margin-top: -30px;
+    opacity: 0;
+    transition: .3s ease
+}
+
+.previous2_up {
+    margin-top: 0px !important;
+    opacity: 1 !important;
+    transition: .3s ease
+}
+
+.previous2_up:hover {
+    text-decoration: underline;
+}
+
+.next-col {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+#next {
+    right: 8%;
+    cursor: pointer;
+    transition: .3s ease
+}
+
+#next2 {
+    right: 8%;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-top: 30px;
+    opacity: 0;
+
+}
+
+.next_up {
+    margin-top: -30px;
+    opacity: 0;
+    transition: .3s ease
+}
+
+.next2_up {
+    margin-top: 0px !important;
+    opacity: 1 !important;
+    transition: .3s ease
+}
+
+.next2_up:hover {
+    text-decoration: underline;
+}
+
+.big {
+    display: none;
+}
+
+
+@media (min-width: 1840px) {
+
+    .container-fluid {
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+    }
+
+    .hamburger {
+        right: 19.5% !important;
+    }
+
+
+    .my-work h2 {
+
+        left: 0%;
+        bottom: 100px;
+    }
+
+    #copybox {
+        left: 14.5%;
+    }
+
+    #copymade {
+        right: 14.5%;
+    }
+
+    .back-project {
+        position: absolute;
+        width: 110%;
+        overflow: hidden;
+        margin-left: -10%;
+        margin-top: -5%;
+
+    }
+    
+    .nobig {
+        display: none;
+    }
+    
+    .big {
+        display: block;
+    }
+    
+     .myphoto {
+        height: 450px
+    }
+    
+    .mysocial {
+        display: inline-flex;
+        justify-content: left;
+        position: relative;
+        padding-top: 30px;
+        width: 120%;
+        margin-left: -5px;
+        margin-right: 10%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mysocial a {
+      margin: 5px;
+    width: 100px;
+    }
+    
+    
+
+}
+
+@media (min-width: 1240px) {
+
+    .container-fluid {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+}
+
+@media (max-width: 1240px) {
+    
+    html {
+        overflow-y: hidden
+    }
+    
+    .notvisible {
+        display:block
+    }
+    
+    .visible {
+        display: none
+    }
+
+    .header {
+        padding-left: 4%;
+        padding-right: 3%;
+    }
+
+
+    .info p {
+        margin-left: 4%;
+
+    }
+
+    .focus {
+        margin-left: 4%;
+    }
+
+    .my-work h2 {
+
+        left: 4%;
+        bottom: 10px;
+    }
+    
+        
+            .about {
+        overflow: scroll;
+    }
+    
+       .myexperience {
+        height: 100%
+        
+    }
+    
+    .mycv {
+        margin-top: 30px;
+        height: 100%
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+    .tile {
+        height: 400px;
+    }
+    
+
+
+}
+
+@media (max-width: 992px) {
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        transition: none;
+
+    }
+
+
+
+    .tile {
+        transition: none;
+    }
+
+    
+            .about {
+        overflow: scroll;
+    }
+    
+    .myphoto {
+        height: 400px
+    }
+    
+   .myexperience {
+        height: 100%
+        
+    }
+    
+    .mycv {
+        margin-top: 30px;
+        height: 100%
+    }
+    
+    .title-experience {
+        width: 48%;
+    }
+    
+    .email-me {
+    right: 60px;
+     
+        left: auto;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-top: -60%;
+}
+
+
+}
+
+@media (max-width: 772px) {
+
+    .not-smartphone {
+        display: none;
+    }
+
+    .smartphone {
+        display: flex
+    }
+
+    body {
+        background-color: ghostwhite;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .row {
+        background-color: ghostwhite;
+    }
+
+    .header-title {
+        margin-left: 15px;
+    }
+
+
+    .info p {
+        font-family: "Laca";
+        font-weight: 300;
+        font-size: 25px;
+        padding-top: 60vh;
+    }
+
+    .about {
+        overflow: scroll;
+    }
+    
+    .myphoto {
+        background-repeat: space
+    }
+
+    .mydescription {
+        height: 100%;
+        margin-bottom: 30px
+    }
+
+    .description {
+        padding-top: 20px;
+    }
+    
+    .mycv {
+        
+        height: 100%
+    }
+
+    .title-experience {
+        margin-left: 0;
+    }
+
+    .myexperience-year {
+        padding-left: 0;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+    .myexperience {
+        margin-top: 20px;
+        height: 100%;
+        padding-left: 0;
+    }
+
+    .mycontacts {
+        position: relative;
+        margin-top: 10px !important;
+    }
+
+    .mysocial {
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        padding-top: 30px;
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mysocial a {
+      margin: 0;
+        width: 100%;
+    }
+
+
+    .myicon {
+        width: 45px !Important;
+        margin-left: 10%
+    }
+    
+    .email-me {
+    position: relative!important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+        left: 20%;
+        bottom: 0;
+}
+
+    .portfolio {
+        margin-bottom: 110px;
+    }
+
+    .title-cell {
+        font-family: "Laca";
+        font-size: 14pt;
+        padding-left: 4%;
+        font-weight: 800;
+        text-transform: ;
+        color: black;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 1px
+    }
+
+    .subtitle-cell {
+        font-family: "Laca";
+        font-size: 12pt;
+        padding-left: 4%;
+        font-weight: 200;
+        text-transform: uppercase;
+        color: black;
+        display: block;
+        letter-spacing: 2px
+    }
+
+
+    .tile img:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .hover {
+        opacity: 0 !important;
+    }
+
+
+
+    .header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer {
+        height: 100px;
+        width: 83%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -10px;
+
+
+    }
+
+    .footer ul {
+        padding-right: 15% !important;
+    }
+
+    .footer li {
+        width: 30px;
+        margin-left: 12px;
+        margin-right: 12px;
+        fill: #b0b0c1;
+        transition: fill 0.3s ease;
+    }
+
+    #copybox {
+        position: relative;
+        bottom: -50px;
+        margin-right: 10px;
+
+    }
+
+    #copymade {
+        position: relative;
+        bottom: -50px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    body {
+        background-color: ghostwhite;
+    }
+
+    .row {
+        background-color: ghostwhite;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .myphoto {
+        padding-bottom: 30px
+    }
+
+
+    .tile {
+        width: 100vw;
+        height: 100vw;
+        border: 0px solid ghostwhite;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .specialImg {
+
+        width: 180% !important;
+        height: auto !important;
+    }
+
+    .tile img:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+
+
+
+
+    .title-cell {
+        font-family: "Laca";
+        font-size: 14pt;
+        padding-left: 4%;
+        font-weight: 800;
+        text-transform: ;
+        color: black;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 1px
+    }
+
+    .subtitle-cell {
+        font-family: "Laca";
+        font-size: 12pt;
+        padding-left: 4%;
+        font-weight: 200;
+        text-transform: uppercase;
+        color: black;
+        display: block;
+        letter-spacing: 2px
+    }
+
+    .hover {
+        opacity: 0 !important;
+    }
+
+}
